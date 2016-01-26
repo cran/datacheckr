@@ -1,10 +1,10 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
-[![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/datacheckr.svg?branch=master)](https://travis-ci.org/poissonconsulting/datacheckr)
+[![Travis-CI Build Status](https://travis-ci.org/poissonconsulting/datacheckr.svg?branch=master)](https://travis-ci.org/poissonconsulting/datacheckr) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/datacheckr)](http://cran.r-project.org/package=datacheckr) [![CRAN Downloads](http://cranlogs.r-pkg.org/badges/grand-total/datacheckr)](https://hadley.shinyapps.io/cran-downloads)
 
 datacheckr
 ==========
 
-`datacheckr` is an R package to check the names, classes and values of columns in data frames.
+`datacheckr` is an R package to check data frame's rows, column names, column classes, values, unique keys and joins.
 
 Why Another Data Checking Package?
 ----------------------------------
@@ -89,11 +89,10 @@ The same tests using `assertr` would require the `assertr` code above to be copi
 Installation
 ------------
 
-To install the latest release version from GitHub
+To install the latest release version from CRAN
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("poissonconsulting/datacheckr@v0.0.1")
+install.packages("datacheckr")
 ```
 
 To install the development version from GitHub
@@ -106,10 +105,7 @@ devtools::install_github("poissonconsulting/datacheckr")
 More Information
 ----------------
 
-To view the vignette *An Introduction to checkdatar* install the release version of `datacheckr` from CRAN and then execute the following code:
-
-    library(datacheckr)
-    vignette("datacheckr")
+For more information view `vignette("datacheckr")` for *An Introduction to checkdatar*.
 
 Contact
 -------
