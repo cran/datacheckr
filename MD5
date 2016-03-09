@@ -1,7 +1,7 @@
-d159e058c8fc18f78d60511ad24a6144 *DESCRIPTION
+86490222a0733763fce0aa8c49e698d7 *DESCRIPTION
 fcc6ddadc2b9a11092fa8c20fe7017cb *LICENSE
 7484a203a3d19a0c704141815b68cd35 *NAMESPACE
-2d4f1708772f269bea14fb9ad1c6efe1 *NEWS.md
+a1a09a3e27ed216454d9901f305c000f *NEWS.md
 43f85423cb59f1bb2cbafca5478a6c95 *R/check-colnames.R
 2c8bf2ab455ad774d148c7e90b00d0f6 *R/check-cols.R
 064305f5a8e5d0d8b389325cdd2664a4 *R/check-data-frame.R
@@ -25,10 +25,10 @@ ff0d6a04980c1ddf594deb2cd73d27b7 *README.md
 35f4489d303c5df2ab8985d057d16d6f *build/vignette.rds
 643efd54efa9d3608bba4f83fe0d6217 *inst/doc/datacheckr.R
 ca5189614d4ceca8a317c4df565e06a9 *inst/doc/datacheckr.Rmd
-f22a46168c955b68ca5384e32e28bfdd *inst/doc/datacheckr.html
+c12fe1c4897d96452e8a88c803bf3422 *inst/doc/datacheckr.html
 2236e3ac872d84c7ec1a27a25e061d43 *inst/doc/nycflights13.R
 24626f6215d0879ea91dbbf2ab034431 *inst/doc/nycflights13.Rmd
-c725112fe1d1889da8c9a4bf0fdc4bb0 *inst/doc/nycflights13.html
+2d4c1da0a97fab900f4f8840b011b8d4 *inst/doc/nycflights13.html
 39ef78b94546166339c6e4c861b6bab5 *man/check_cols.Rd
 b27f9f9cf5e1ae134318dd905bc0a097 *man/check_count.Rd
 bb4379ea48eeafd8e7d404bbccd77328 *man/check_data1.Rd
@@ -64,7 +64,7 @@ b07ef383b7841803760506a5c8166180 *tests/testthat/test-check-key.R
 74be0b7940d3ffa06c89f44c772225c0 *tests/testthat/test-check-rows.R
 274cc6ef2db274657e8dbb4523b5cbd1 *tests/testthat/test-check-scalar.R
 c8f82d05c4230da9dbbeaf9bcf0b15c8 *tests/testthat/test-check-string.R
-de77e64d1fb7a4df95d58d70bc3c55ab *tests/testthat/test-check-values.R
+5ac8efdf0ffd11f6ca66a869f2b77453 *tests/testthat/test-check-values.R
 277f757ddde7488965c0bde65e52da32 *tests/testthat/test-check-vector.R
 dc923ef464c4d14f187044026537f2bf *tests/testthat/test-data-frame.R
 a116c49297735a8337efb0b53fd6b317 *tests/testthat/test-max-integer.R
