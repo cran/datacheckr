@@ -1,5 +1,9 @@
 # NEWS datacheckr
 
+## v0.1.2
+
+- Add function `check_unique()` to confirm an object doesn't have any duplicated elements.
+
 ## v0.1.1
 
 - Fixed tests so that compatible with testthat v0.11.0.9000
