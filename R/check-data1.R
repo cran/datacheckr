@@ -17,8 +17,6 @@
 #'
 #' @return Throws an informative error or returns an invisible copy of
 #' data.
-#' @seealso \code{\link{datacheckr}}
-#' @aliases check_data
 #' @export
 check_data1 <- function(data, values = NULL, min_row = 0, max_row = max_nrow(),
                         key = character(0), data_name = substitute(data)) {
@@ -29,14 +27,4 @@ check_data1 <- function(data, values = NULL, min_row = 0, max_row = max_nrow(),
   data <- check_values(data, values = values, unique = FALSE, nulls = TRUE, data_name = data_name)
   data <- check_key(data, key = key, data_name = data_name)
   invisible(data)
-}
-
-#' @export
-check_data <- function(data, values = NULL, min_row = 0, max_row = max_nrow(),
-                       key = character(0), data_name = substitute(data)) {
-  if (!is.character(data_name)) data_name <- deparse(data_name)
-
-  .Deprecated("check_data1")
-  check_data1(data = data, values = values, min_row = min_row, max_row = max_row,
-              key = key, data_name = data_name)
 }

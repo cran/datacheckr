@@ -18,7 +18,3 @@ x.
 \description{
 Checks Number
 }
-\seealso{
-\code{\link{datacheckr}}
-}
-

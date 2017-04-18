@@ -18,7 +18,3 @@ x.
 \description{
 Checks Flag
 }
-\seealso{
-\code{\link{datacheckr}}
-}
-
